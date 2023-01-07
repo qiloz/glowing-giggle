@@ -18,9 +18,9 @@ int main(){
 		}
 	}
 	
-	int randomVal = (rand() % arraySizeX);
 
 	for (int i = 0; i < arraySizeY; ++i) { 
+			int randomVal = (rand() % arraySizeX);
 			nums[i][randomVal] = 0;	 // counter for giving 1 zero on one line
 		}									 
 
